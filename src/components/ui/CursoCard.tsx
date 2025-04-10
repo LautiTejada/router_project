@@ -26,7 +26,7 @@ export const CursoCard = ({ curso }: Props) => {
       <Card>
         <Card.Body>
                   <Card.Title>{curso.nombre}</Card.Title>
-                  <Card.Text>Alumnos: {curso.estudiante.length} </Card.Text>
+                  <Card.Text>Alumnos: {curso.estudiantes.length} </Card.Text>
                   <Button onClick={handleClick} variant="primary" >Ver Estudiantes</Button>
         </Card.Body>
       </Card>

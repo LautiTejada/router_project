@@ -7,5 +7,5 @@ export interface IEstudiante {
 export interface ICurso{
     id: string,
     nombre: string,
-    estudiante: IEstudiante[]
+    estudiantes: IEstudiante[]
 }
