@@ -14,22 +14,16 @@ export const CursoCard = ({ curso }: Props) => {
   };
 
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        gap: "1.4rem",
-        padding: "1.4rem",
-        width: "25vw",
-      }}
-    >
-      <Card>
-        <Card.Body>
-                  <Card.Title>{curso.nombre}</Card.Title>
-                  <Card.Text>Alumnos: {curso.estudiantes.length} </Card.Text>
-                  <Button onClick={handleClick} variant="primary" >Ver Estudiantes</Button>
-        </Card.Body>
-      </Card>
-    </div>
+    <Card className="shadow-sm rounded-4 m-3" style={{ width: "18rem" }}>
+      <Card.Body className="d-flex flex-column justify-content-between">
+        <Card.Title className="fw-bold text-primary">{curso.nombre}</Card.Title>
+        <Card.Text className="text-muted">
+          Alumnos: {curso.estudiantes.length}
+        </Card.Text>
+        <Button onClick={handleClick} variant="outline-primary">
+          Ver Estudiantes
+        </Button>
+      </Card.Body>
+    </Card>
   );
 };

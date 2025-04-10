@@ -7,21 +7,11 @@ interface Props {
 
 export const EstudianteCard = ({ estudiante }: Props) => {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        gap: "1.4rem",
-        padding: "1.4rem",
-        width: "25vw",
-      }}
-    >
-      <Card>
-        <Card.Body>
-          <Card.Title>Nombre:{estudiante.nombre}</Card.Title>
-          <Card.Text>Edad: {estudiante.edad}</Card.Text>
-        </Card.Body>
-      </Card>
-    </div>
+    <Card className="shadow-sm rounded-4 m-3" style={{ width: "18rem" }}>
+      <Card.Body>
+        <Card.Title className="fw-bold">{estudiante.nombre}</Card.Title>
+        <Card.Text className="text-muted">Edad: {estudiante.edad}</Card.Text>
+      </Card.Body>
+    </Card>
   );
 };

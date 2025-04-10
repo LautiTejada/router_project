@@ -24,17 +24,9 @@ export const EstudianteScreen = () => {
   return (
     <>
       <Header />
-      <div>
-        <div style={{ display: "flex", justifyContent: "center" }}>
-          <h1>Estudiantes del curso: {cursoId} </h1>
-        </div>
-        <div
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            justifyContent: "center",
-          }}
-        >
+      <div className="text-center my-4">
+        <h1 className="mb-4">Estudiantes del curso: {cursoId}</h1>
+        <div className="d-flex flex-wrap justify-content-center">
           {estudiantes.map((estudiante) => (
             <EstudianteCard key={estudiante.id} estudiante={estudiante} />
           ))}

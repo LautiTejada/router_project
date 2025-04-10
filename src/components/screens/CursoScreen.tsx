@@ -21,15 +21,9 @@ export const CursoScreen = () => {
   return (
     <>
       <Header />
-      <div
-        style={{
-          display: "flex",
-          flexWrap: "wrap",
-          justifyContent: "center",
-        }}
-      >
-        <h1>Cursos</h1>
-        <div>
+      <div className="text-center my-4">
+        <h1 className="mb-4">Cursos</h1>
+        <div className="d-flex flex-wrap justify-content-center">
           {cursos.map((curso) => (
             <CursoCard key={curso.id} curso={curso} />
           ))}
