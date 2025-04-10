@@ -1,0 +1,54 @@
+{
+    "cursos": [
+      {
+        "id": 1,
+        "nombre": "Programación Web",
+        "estudiantes": [
+          { "id": 1, "nombre": "Elena", "edad": 20 },
+          { "id": 2, "nombre": "Raúl", "edad": 22 },
+          { "id": 3, "nombre": "Bruno", "edad": 21 },
+          { "id": 4, "nombre": "Clara", "edad": 23 },
+          { "id": 5, "nombre": "Esteban", "edad": 20 },
+          { "id": 6, "nombre": "Violeta", "edad": 22 },
+          { "id": 7, "nombre": "Iván", "edad": 24 },
+          { "id": 8, "nombre": "Paula", "edad": 21 },
+          { "id": 9, "nombre": "Marco", "edad": 22 },
+          { "id": 10, "nombre": "Julia", "edad": 20 }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Base de Datos",
+        "estudiantes": [
+          { "id": 11, "nombre": "Noelia", "edad": 21 },
+          { "id": 12, "nombre": "Héctor", "edad": 23 },
+          { "id": 13, "nombre": "Renata", "edad": 22 },
+          { "id": 14, "nombre": "Axel", "edad": 20 },
+          { "id": 15, "nombre": "Lola", "edad": 21 },
+          { "id": 16, "nombre": "Simón", "edad": 22 },
+          { "id": 17, "nombre": "Daniela", "edad": 23 },
+          { "id": 18, "nombre": "Gaspar", "edad": 24 },
+          { "id": 19, "nombre": "Julieta", "edad": 20 },
+          { "id": 20, "nombre": "Brayan", "edad": 22 }
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Metodologia de la Seguridad",
+        "estudiantes": [
+          { "id": 21, "nombre": "Thiago", "edad": 21 },
+          { "id": 22, "nombre": "Natalia", "edad": 23 },
+          { "id": 23, "nombre": "Damián", "edad": 22 },
+          { "id": 24, "nombre": "Aurora", "edad": 20 },
+          { "id": 25, "nombre": "Ivano", "edad": 19 },
+          { "id": 26, "nombre": "Bianca", "edad": 26 },
+          { "id": 27, "nombre": "Federico", "edad": 21 },
+          { "id": 28, "nombre": "Aitana", "edad": 22 },
+          { "id": 29, "nombre": "Ezequiel", "edad": 23 },
+          { "id": 30, "nombre": "Amalia", "edad": 22 },
+          { "id": 31, "nombre": "Bastián", "edad": 20 }
+        ]
+      }
+    ]
+  }
+  
